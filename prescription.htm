@@ -1,0 +1,203 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>AndhraHospitals.org</title>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="100%" align="center" border="0">
+	<tbody>
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" width="990" align="center" border="0">
+					<tbody>
+						<tr>
+							<td width="440" valign="top">
+								<img width="405" height="115" src="logo.jpg">
+							</td>
+							<td width="550" valign="top">
+								<table cellpadding="0" cellspacing="0" width="550" align="center" border="0">
+									<tbody>
+										<tr>
+											<td width="26" align="right">
+												<img src="header_nav_start.jpg" height="19" width="26">
+											</td>
+											<td valign="top" width="524" bgcolor="#009DD0">
+												<table cellpadding="0" cellspacing="0" width="450" align="center" border="0">
+													<tbody>
+														<tr align="center">
+															<td>
+																<a href="index.htm" title="Home">Home</a>
+															</td>
+															<td>
+																|
+															</td>
+															<td>
+																Welcome Doctor..!!
+															</td>
+															<td>
+																|
+															</td>
+															<td>
+																<a href="index.htm" title="DoctorLogin">Logout</a>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table cellpadding="0" cellspacing="0" width="550" align="center" border="0">
+									<tbody>
+										<tr>
+											<td align="right">
+												<p><i><b>AndhraHospitals-Prescription Viewer
+												Maintaining regularity in your medicine course..!!</b></i>
+												</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table cellpadding="0" cellspacing="0" width="100%" align="center" bgcolor="#F7F7F7" border="0">
+	<tbody>
+		<tr>
+			<td height="10"></td>
+		</tr>
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" width="990" align="center" bgcolor="#F7F7F7" border="0">
+					<tbody>
+						<tr>
+							<td>
+								<table cellpadding="0" cellspacing="0" width="100%" border="0">
+									<tbody>
+										<tr>
+											<td style="font-size: 20px">
+												<span style="color:red">
+													Enter New
+												</span>
+												<span style="color:blue">
+													Prescription Form:
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td height="10"></td>
+										</tr>
+										<tr>
+											<td height="15">
+												<form id="form6" method="post" action="enterpresdetails" bgcolor="#F7F7F7">
+													<table border="0" cellpadding="3" cellspacing="3" width="700">
+														<tbody>
+															<tr>
+																<td align="left" valign="top">Prescription Id:</td>
+																<td><input type="text" name="prescriptionid" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Patient Id:</td>
+																<td><input type="text" name="patientid" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Doctor Id:</td>
+																<td><input type="text" name="doctorid" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Currently Active:</td>
+																<td><input type="checkbox" name="patient" value="cured" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Starting Date:</td>
+																<td><input type="date" name="joineddate" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Discharge Date:</td>
+																<td><input type="date" name="dischargedate" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Provider:</td>
+																<td>
+																	<select name="Provider" id="prov" size="1" style="width: 100px;" required>
+																		<option value="Medplus">Medplus</option>
+																		<option value="Betty Black">Betty Black</option>
+																		<option value="Ranbaxy">Ranbaxy</option>
+																		<option value="Cipla">Cipla</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Drug Name 1:</td>
+																<td><input type="text" name="medicine1" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Drug Name 2:</td>
+																<td><input type="text" name="medicine2"></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Dosage:</td>
+																<td><input type="text" name="no.of" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Medicine Units:</td>
+																<td><input type="number" name="medicineunits" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Refills:</td>
+																<td><input type="number" name="no.of.refills" required></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top">Notes:</td>
+																<td><textarea name="notes" rows="7" cols="30" required></textarea></td>
+															</tr>
+															<tr>
+																<td align="left" valign="top"></td>
+																<td>
+																	<select  name="Replace" id="rep" style="width: 300px;" required>
+																		<option value="allowed">Substitution Allowed</option>
+																		<option value="not allowed">Substitution Not Allowed</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td height="20"></td>
+															</tr>
+															<tr>
+																<td colspan="10" align="center" valign="top">
+																	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																		<tbody>
+																			<tr>
+																				<td align="right">
+																					<input type="submit" value="submit">
+																				</td>
+																				<td width="4%">&nbsp;</td>
+																				<td align="left">
+																					<input type="reset" value="reset">
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</form>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
